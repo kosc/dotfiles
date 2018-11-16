@@ -26,5 +26,9 @@
 ; Use main GPG key by default
 (setq epa-file-select-keys "6163B960A5CC15D0")
 
+; Add IN_PROGRESS status to org-mode TODO
 (setq org-todo-keywords
   '((sequence "TODO" "IN_PROGRESS" "|" "DONE")))
+
+; Add my orgfiles to Agenda
+(setq org-agenda-files (directory-files-recursively "~/Dropbox/orgfiles" "\.gpg$"))
