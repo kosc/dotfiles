@@ -160,7 +160,7 @@ map <C-q> :bd<CR>      " CTRL+Q - закрыть текущий буффер
 " Python-mode settings
 "=====================================================
 " отключаем автокомплит jedi-vim (вместо него будет rope из python-mode)
-let g:jedi#completions_command = 0
+let g:jedi#completions_enabled = 0
 let g:pymode_rope = 1
 let g:pymode_rope_completion = 1
 let g:pymode_rope_complete_on_dot = 1
