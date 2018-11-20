@@ -1,4 +1,5 @@
-# kosc's part of bashrc
+export EDITOR=vim
+
 set -o vi
 
 mycd () {
