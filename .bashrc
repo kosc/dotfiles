@@ -14,6 +14,6 @@ mycd () {
   fi
 }
 
-export PATH=$PATH:"~/.local/bin"
+export PATH="$HOME/.local/bin":$PATH
 
 alias cd=mycd
